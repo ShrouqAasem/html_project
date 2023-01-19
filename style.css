@@ -1,0 +1,478 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+
+    background-image: url("./Images/AVG.jpg");
+    background-size: cover;
+    
+}
+
+
+.logo {
+    text-align: left;
+}
+.home {
+    background-color: #BAD7E9 ;
+    width: 100%;
+    display: inline-block;
+    margin: 0px;
+}
+
+
+#nav {
+    text-align: right;
+    opacity: 100%;
+    margin: 0%;
+    width: 100%;
+    background-color: #BAD7E9;
+}
+
+
+#nav ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+}
+nav ul li a:hover {
+    background-color: yellow;
+    text-decoration: underline solid ;
+}
+#nav li {
+    padding: 15px 2%;
+    display: inline-block; 
+    text-align: right;
+}
+#nav ul li a {
+    text-decoration: none;
+    color:#000  ;
+    text-align: right;
+    font-weight: 1000;
+}
+
+.slider {
+    opacity: 40%;
+    background-color: #85586F;
+    width: 100%;
+    height: 18.75rem;
+}
+.Feature-product {
+    position: relative;
+    width: 100%;
+    height: 18.75rem;
+    display: inline-block;
+    text-align: center;
+}
+.Feature-product p {
+    margin-bottom: 0;
+    font-size: 2rem;
+    color:rgb(255, 255, 255)  ;
+    text-align: center;
+    font-weight: 1000;
+}
+.t-shirt {
+    width: 10rem;
+    height: 10rem;
+    /* position:; */
+}
+.product1 {
+    margin-top: 0;
+    /* padding-left: 5rem; */
+    display: inline-block;
+    margin: 70px;
+}
+.product1 a:hover{
+    background-color: grey;
+}
+.product1 img:hover{
+   transform: scale(1.1);
+   transition: 0.5;
+}
+.product2 img:hover{
+    transform: scale(1.1);
+    transition: 0.5;
+ }
+ .product3 img:hover{
+    transform: scale(1.1);
+    transition: 0.5;
+ }
+ .product4 img:hover{
+    transform: scale(1.1);
+    transition: 0.5;
+ }
+.product2 a:hover{
+    background-color: grey;
+}
+.product3 a:hover{
+    background-color: grey;
+}
+.product4 a:hover{
+    background-color: grey;
+}
+
+.shirt-desc {
+    /* padding-left: 2rem; */
+    text-decoration: none;
+    color:#000  ;
+    font-weight: 1000;
+}
+.product2 {
+    /* padding-left: 5rem; */
+    display: inline-block;
+    margin: 70px;
+}
+.shirt-desc {
+
+    /* padding-left: 3.5rem; */
+    text-decoration: none;
+    color:#000  ;
+    font-weight: 1000;
+}
+.product3 {
+    /* padding-left: 5rem; */
+    display: inline-block;
+    margin: 70px;
+}
+.shirt-desc {
+
+    /* padding-left: 3.5rem; */
+    text-decoration: none;
+    color:#000  ;
+    font-weight: 1000;
+}
+.product4 {
+    /* padding-left: 5rem; */
+    display: inline-block;
+    margin: 70px;
+}
+.shirt-desc {
+
+    /* padding-left: 3.5rem; */
+    text-decoration: none;
+    color:rgb(255, 255, 255)  ;
+    font-weight: 1000;
+}
+.footer {
+    color:rgb(255, 255, 255)  ;
+    text-align: center;
+    font-size: larger;
+}
+.img-desc {
+    /* background-color: #BAD7E9;
+    opacity: 10%; */
+    margin-top: 12rem;
+    vertical-align: middle;
+    text-align: center;
+}
+.product-image {
+    display: inline-block;
+}
+
+.menuToggle {
+    width: 20%;
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .menuToggle {
+        
+        display: block;
+    }
+    .nav-link {
+         display: none; 
+        width: 100%;
+        text-align: center;
+
+    }
+    #nav li {
+        display: block;
+        text-align: center;
+    }
+    
+    #nav .active {
+        display: block;
+              
+    }
+
+
+}
+
+
+
+.product-image img {
+    border-radius: 25px;
+    width: 25rem;
+    height: 15rem;
+}
+.desc {
+    font-size: 20px ;
+    border-radius: 20px;
+    background-color: gray;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.desc-summary {
+    font-size: 12px;    
+}
+.contact {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    /* margin: -50px 0 0 -50px; */
+    /* background-color: #BAD7E9; */
+    /* vertical-align: middle; */
+    /* text-align: center; */
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+margin-left: 33%;
+width: 40%;
+border-radius: 8px;
+background-color: wheat;
+padding: 30px;
+}
+
+
+
+/* Users style.css */
+.Users {
+    width: 40%;
+    margin-top: 50px;
+    margin-left:31%;
+    background-color:#f2f2f2;
+    border: 4px solid rgb(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgb(0, 0, 0, 0.9);
+
+}
+caption {
+    font-size: larger;
+    width: auto;
+    font-style: italic;
+    background-color: #205295;
+    border: 3px solid;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: sans-serif;
+    border: 3px solid;
+    
+}
+tr , td , th {
+    border: 2px solid;
+    padding: 10px;
+}
+th {
+    text-transform: uppercase;
+    background:#2C74B3;
+}
+tr:hover {
+    background:#CEEDC7;
+    cursor: pointer;
+}
+
+.main {
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+.main h2 {
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.Register {
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 3px solid rgb(255, 255, 200, 0.3);
+    box-shadow: 2px 2px 15px rgb(0, 200, 200, 0.3);
+    color:white;
+}
+#Register {
+    margin: 40px;
+}
+.main label {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.main #submit {
+    width: 100px;
+    color: black;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.main #password {
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid ;
+    block-size: 3em;
+}
+.main #email {
+    width: 100%;
+    block-size: 3em;
+}
+
+.loginForm {
+    margin-top: 40%;
+}
+
+.login-labels {
+    width: 300px;
+    text-align: center;
+    top: 80%;
+    left: 37%;
+    bottom: 30%;  
+}
+
+.login-labels label {
+    font-size: 30px ;
+    padding: 30px 10px ;
+    width: 20%;
+    border: 0;
+    right: 100%;
+    font-weight: bold;
+    color: blue;
+}
+
+.login-labels input {
+    font-size: 18px;
+    padding: 15px 10px ;
+    width: 100%;
+    border: 2px solid;
+}
+
+.login-labels button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+   padding: 10px 15px;
+   width: 40%;
+   background-color: #fff;
+   border-radius: 17px; 
+}
+
+.slideshow-container {
+    height: 30%;
+    width: 40%;
+    /* position: relative; */
+    margin: auto;
+    
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+footer {
+    text-align: center;
+    background-color: fuchsia;
+}
+footer ul {
+    padding: 0px;
+}
+footer ul li{
+
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+/* thiss new nav bar for contact us page */
+#myTopnav {
+    text-align: right;
+    display: block;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+  .topnav a {
+    display: inline-block;
+    color: #000000;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 914px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 914px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    }
+  }
+
+ 
